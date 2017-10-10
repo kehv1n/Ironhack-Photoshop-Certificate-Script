@@ -1,4 +1,4 @@
-#Ironhack Certificate Script#
+# Ironhack Certificate Script #
 
 JSX Script that creates graduation certificates for Ironhack (Miami) Graduates. 
 
@@ -8,9 +8,9 @@ _Should_ work on most version on Photoshop. But i've only currently tested it in
 
 Created because Marissa said it would be waste of time, well -- boohoo Marissa...! 
 
-#How to Use#
+# How to Use #
 
-##First, open the file and load the class##
+## First, open the file and load the class ##
 
 Simply load the students in the Array titled "theClass" as strings..
 ```
@@ -30,7 +30,7 @@ And call the function ```makeGrads``` where the first parameter is theClass cons
 makeGrads(theClass, 'uxui');
 ```
 
-##Then, run the PhotoShop script in Photoshop##
+## Then, run the PhotoShop script in Photoshop ##
 
 Simply open up whatever version you're using in Photoshop (again, preferebly Photoshop CC 2014)
 
