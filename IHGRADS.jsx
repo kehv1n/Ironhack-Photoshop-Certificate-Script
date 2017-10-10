@@ -2,18 +2,33 @@
 //Important to note that this scripts works Photoshop CC 2014
 // ES6 is NOT supported
 
-var theClass = [];
+var theClass = [
+  'Emma Salles',
+  'Joao Campos',
+  'Ernesto Rodriguez',
+  'Allana Coleman',
+  'Rachelle Dauphin',
+  'Fumnanya Agbimson',
+  'Daniel Shebshayevich',
+  'Qinglin Wang',
+  'Dharma Valesco',
+  'Jamilet Zelaya',
+  'Artuto Filio Villa',
+  'William Bonney-Ache'
+];
 
 // 1st Parameter MUST be array of student names,
 // 2nd Parameter MUST be a string of class mode ('webdev' or 'uxui')
 
-makeGrads(theClass, 'uxui');
+makeGrads(theClass, 'webdev');
 
 
 function makeGrads(students, mode) {
+  alert('Inside function');
   if (app.documents.length !== 0) {
     //get active docs
     var activeDoc = app.activeDocument;
+    alert(activeDoc);
 
     //traversing array
     for(i = 0; i < students.length; i++) {
